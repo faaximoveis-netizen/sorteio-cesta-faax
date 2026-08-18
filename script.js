@@ -1,5 +1,5 @@
 const GOOGLE_SCRIPT_URL =
-    "COLE_AQUI_O_LINK_DO_GOOGLE_APPS_SCRIPT";
+    "https://script.google.com/macros/s/AKfycbyu2di6059vIjeklMmhRE3mVOAWUSK-N3TRvJpUL4isxbke5a-RSzuFFvfZxiJ-G4ft0w/exec";
 
 
 const form = document.getElementById("sorteioForm");
