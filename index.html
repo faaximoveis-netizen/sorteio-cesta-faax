@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sorteio FAAX Imóveis</title>
+
+    <meta name="description"
+          content="Participe do sorteio FAAX Imóveis e concorra a uma cesta especial de brindes.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="hero">
+
+            <div class="logo-area">
+                <div class="logo">FAAX</div>
+                <span>IMÓVEIS</span>
+            </div>
+
+            <h1>🎉 SORTEIO FAAX IMÓVEIS</h1>
+
+            <p class="subtitle">
+                Uma cesta especial cheia de estilo, parceria e bons momentos.
+            </p>
+
+            <div class="prizes">
+
+                <div class="prize">
+                    <span>🍷</span>
+                    <strong>Vinho</strong>
+                    <small>D.V. Catena Cabernet-Malbec 2023</small>
+                </div>
+
+                <div class="prize">
+                    <span>👕</span>
+                    <strong>Camiseta</strong>
+                    <small>CAD</small>
+                </div>
+
+                <div class="prize">
+                    <span>🥤</span>
+                    <strong>Copo Stanley</strong>
+                    <small>Personalizado FAAX</small>
+                </div>
+
+                <div class="prize">
+                    <span>🧢</span>
+                    <strong>Boné</strong>
+                    <small>Personalizado FAAX</small>
+                </div>
+
+            </div>
+
+            <div class="date">
+                📅 Sorteio em <strong>01/10/2026</strong>
+            </div>
+
+        </section>
+
+
+        <section class="participation">
+
+            <h2>Como participar?</h2>
+
+            <div class="steps">
+
+                <a
+                    class="step"
+                    href="https://www.instagram.com/imobiliaria_faax/"
+                    target="_blank"
+                >
+                    <div class="step-number">1</div>
+
+                    <div>
+                        <strong>Siga a FAAX no Instagram</strong>
+                        <p>@imobiliaria_faax</p>
+                    </div>
+
+                    <span>↗</span>
+                </a>
+
+
+                <a
+                    class="step"
+                    href="https://g.page/r/CfOAuGMJVo60EBM/review"
+                    target="_blank"
+                >
+                    <div class="step-number">2</div>
+
+                    <div>
+                        <strong>Avalie a FAAX no Google</strong>
+                        <p>Deixe 5 ⭐⭐⭐⭐⭐</p>
+                    </div>
+
+                    <span>↗</span>
+                </a>
+
+
+                <div class="step">
+
+                    <div class="step-number">3</div>
+
+                    <div>
+                        <strong>Compartilhe nos Stories</strong>
+                        <p>Publique o sorteio no seu Story.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">4</div>
+
+                    <div>
+                        <strong>Marque @imobiliaria_faax</strong>
+                        <p>Não esqueça de marcar a FAAX.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form id="sorteioForm">
+
+                <h2>🎟️ Confirmar participação</h2>
+
+                <p class="form-description">
+                    Preencha seus dados abaixo para registrar sua participação.
+                </p>
+
+
+                <label for="nome">
+                    Nome completo
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+
+                <label for="instagram">
+                    Instagram
+                </label>
+
+                <input
+                    type="text"
+                    id="instagram"
+                    name="instagram"
+                    placeholder="@seuinstagram"
+                    required
+                >
+
+
+                <label for="telefone">
+                    WhatsApp / Telefone
+                </label>
+
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(42) 99999-9999"
+                    required
+                >
+
+
+                <div class="confirmations">
+
+                    <label class="checkbox">
+
+                        <input
+                            type="checkbox"
+                            id="seguiu"
+                            required
+                        >
+
+                        <span>
+                            Confirmo que estou seguindo
+                            <strong>@imobiliaria_faax</strong>
+                            no Instagram.
+                        </span>
+
+                    </label>
+
+
+                    <label class="checkbox">
+
+                        <input
+                            type="checkbox"
+                            id="avaliou"
+                            required
+                        >
+
+                        <span>
+                            Confirmo que deixei minha avaliação
+                            de 5 estrelas no Google.
+                        </span>
+
+                    </label>
+
+
+                    <label class="checkbox">
+
+                        <input
+                            type="checkbox"
+                            id="story"
+                            required
+                        >
+
+                        <span>
+                            Confirmo que compartilhei o sorteio
+                            nos Stories e marquei
+                            <strong>@imobiliaria_faax</strong>.
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <button type="submit" id="submitButton">
+                    🎉 PARTICIPAR DO SORTEIO
+                </button>
+
+                <p class="privacy">
+                    Seus dados serão utilizados exclusivamente
+                    para controle e realização do sorteio.
+                </p>
+
+            </form>
+
+
+            <div id="successMessage" class="success hidden">
+
+                <div class="success-icon">🎉</div>
+
+                <h2>Participação registrada!</h2>
+
+                <p>
+                    Boa sorte! Sua participação foi enviada
+                    com sucesso para a FAAX Imóveis.
+                </p>
+
+                <strong>
+                    O sorteio acontece em 01/10/2026.
+                </strong>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+            © 2026 FAAX Imóveis — Todos os direitos reservados.
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
